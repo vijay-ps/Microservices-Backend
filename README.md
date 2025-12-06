@@ -4,11 +4,7 @@ A production-ready **Node.js Microservices Architecture** built with:
 - Node.js + Express  
 - Docker & Docker Compose  
 - Independent microservices (User, Task, Notification)  
-- RESTful APIs  
-- Scalable folder structure  
-
----
-
+- RESTful APIs   
 
 ## 🧩 Services Overview
 
@@ -48,21 +44,6 @@ docker-compose down
 ### Rebuild a single service
 docker-compose build user-service
 
-
-
----
-
-## ⚙️ Environment Variables
-
-Each service can contain its own `.env` file:
-
-PORT=4001
-MONGO_URI=mongodb://localhost:27017/userdb
-JWT_SECRET=yourSecretKey
-
-
----
-
 ## 🧪 API Endpoints
 
 ### User Service
@@ -87,5 +68,6 @@ POST /api/notify/send
 
 ## 📜 License  
 MIT License © 2025
+
 
 
