@@ -38,20 +38,17 @@ Handles:
 ### Start all microservices
 docker-compose up --build
 
-shell
-Copy code
+
 
 ### Stop all services
 docker-compose down
 
-shell
-Copy code
+
 
 ### Rebuild a single service
 docker-compose build user-service
 
-yaml
-Copy code
+
 
 ---
 
@@ -63,8 +60,6 @@ PORT=4001
 MONGO_URI=mongodb://localhost:27017/userdb
 JWT_SECRET=yourSecretKey
 
-yaml
-Copy code
 
 ---
 
@@ -75,8 +70,7 @@ POST /api/users/register
 POST /api/users/login
 GET /api/users/profile
 
-shell
-Copy code
+
 
 ### Task Service
 POST /api/tasks
@@ -84,15 +78,14 @@ GET /api/tasks
 PUT /api/tasks/:id
 DELETE /api/tasks/:id
 
-shell
-Copy code
+
 
 ### Notification Service
 POST /api/notify/send
 
-yaml
-Copy code
+
 
 ## 📜 License  
 MIT License © 2025
+
 
