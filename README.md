@@ -9,38 +9,6 @@ A production-ready **Node.js Microservices Architecture** built with:
 
 ---
 
-## 📁 Project Structure
-
-root/
-│── docker-compose.yml
-│── .gitignore
-│── README.md
-│
-├── user-service/
-│ ├── Dockerfile
-│ ├── .dockerignore
-│ ├── index.js
-│ ├── package.json
-│ └── package-lock.json
-│
-├── task-service/
-│ ├── Dockerfile
-│ ├── .dockerignore
-│ ├── index.js
-│ ├── package.json
-│ └── package-lock.json
-│
-└── notification-service/
-├── Dockerfile
-├── .dockerignore
-├── index.js
-├── package.json
-└── package-lock.json
-
-yaml
-Copy code
-
----
 
 ## 🧩 Services Overview
 
@@ -125,27 +93,6 @@ POST /api/notify/send
 yaml
 Copy code
 
----
-
-## 📡 Deployment Options
-This project can be deployed on:
-- Docker Swarm  
-- Render  
-- Railway  
-- AWS ECS  
-- Kubernetes (K8s)  
-
----
-
-## 🏆 Why This Project Is Resume-Ready
-- ✔ Microservices architecture  
-- ✔ Each service independently dockerized  
-- ✔ Clean scalable folder structure  
-- ✔ JWT authentication implemented  
-- ✔ Real-world service separation  
-- ✔ Easy to add message queues (RabbitMQ / Kafka)  
-
----
-
 ## 📜 License  
 MIT License © 2025
+
